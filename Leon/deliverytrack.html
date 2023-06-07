@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"/>
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="assets/css/deliverytrack.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+
+    <script src="assets/js/deliverytrack.js"></script>
+
+    <title>DogeFarm | Delivery Track</title>
+  </head>
+  <body>
+   
+  <div>
+    <div class="container px-1 px-md-4 py-5 mx-auto">
+      <div class="card">
+        <div class="row d-flex justify-content-between px-3 top">
+          <div class="d-flex">
+            <h5>
+              ORDER
+              <span class="text-primary font-weight-bold">#0909090909</span>
+              <br>
+              <div class="pop-up-btn">
+                <p><img src="assets/img/infobutton.svg" alt=""style="width: 20px;"/>DELIVERY ADDRESS</p>
+                 <div style="width: 200px;" class="info-box">
+                   <p style="text-align: left; font-size: 11px;">DogeFarm | (+62)811-xxxx-xxx</p>
+                   <h6 style="opacity: 0.7;">Batam Centre, Komplek Ruko Glory View II Blok D No. 06,</h6>
+                   <h6 style="opacity: 0.7;">Kota Batam, Kepulauan Riau 29461</h6>
+                   <br>
+                 </div>
+                 </div>
+            </h5>
+          </div>
+          <div class="d-flex flex-column text-sm">
+            <p class="mb-0">
+              Expected Arrival <span class="font-weight-bold">02 February 2023</span>
+            </p>
+            <p>
+              JNE <span>xxxxxxxx</span>
+            </p>
+          </div>
+        </div>
+        
+        <div class="row d-flex justify-content-center">
+          <div class="col-12">
+            <ul id="progressbar" class="text-center">
+              <li class="active step0"> <span> <b>22/02/23 06:00</b></span>
+                <div class="icon-content">
+                  <div class="pop-up-btn">
+                    <br>
+                    <img src="assets/img/orderprocessed.svg" alt="" class="icon" />
+                      <div class="info-box">
+                        Order Processed
+                      </div>
+                  </div>
+                </div>
+              <li class="active step0">  <span><b>27/02/23 08:12</b></span>
+                <div class="icon-content">
+                  <div class="pop-up-btn">
+                    <br>
+                    <img src="assets/img/deliveringorder.svg" alt="" class="icon" />
+                      <div class="info-box">
+                        Delivering Order
+                      </div>
+                  </div>
+                </div>
+              <li class="active step0">  <span><b>01/03/23 16:54</b></span>
+                <div class="icon-content">
+                  <div class="pop-up-btn">
+                    <br>
+                    <img src="assets/img/orderenroute.svg" alt="" class="icon" />
+                      <div class="info-box">
+                        Order En Route
+                      </div>
+                  </div>
+                </div>
+              <li class="step0">  <span><b>04/03/23 20:00</b></span>      
+                <div class="icon-content">
+                  <div class="pop-up-btn">
+                    <br>
+                    <img src="assets/img/orderreceived.svg" alt="" class="icon" />
+                      <div class="info-box">
+                        Order Received
+                      </div>
+                  </div>
+                </div>        
+              </ul>
+          </div>
+        </div>
+        <br>
+      </div>
+              <div class="card" style="padding: 10px;">
+                <div style="text-align: right;">
+                  <table>
+                    <tr>
+                      <td class="ordersum" style="padding: 0px;">Payment Method</td>
+                      <td><img src="assets/img/paymentmethod.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">BCA</td>
+                    </tr>
+                    <tr>
+                      <td class="ordersum" style="padding: 0px;">Subtotal</td>
+                      <td><img src="assets/img/subtotal.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">Rp xx.xxx</td>
+                    </tr>
+                    <tr>
+                      <td class="ordersum" style="padding: 0px;">Shipping Fee</td>
+                      <td><img src="assets/img/shippingfee.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">Rp xx.xxx</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right; padding: 0px;">
+                        <div class="pop-up-btn">
+                        <div class="ordersum"><img src="assets/img/infobutton.svg" alt="" class="icon-1"style="width: 20px;">Shipping Discount</div>
+                        <div class="info-box" style="width: 200px; font-size: 12px;">
+                          Discount included from vouchers/promo code.
+                        </div>
+                        </div>
+                      </td>
+                      <td><img src="assets/img/shippingdiscount.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">Rp xx.xxx</td>
+                    </tr>
+                    <tr>
+                      <td class="ordersum" style="padding: 0px;">Handling Fee</td>
+                      <td><img src="assets/img/handlingfee.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">Rp xx.xxx</td>
+                    </tr>
+                    <tr>
+                      <td class="ordersum" style="padding: 0px;">Buyer Service Fee</td>
+                      <td><img src="assets/img/buyerservicefee.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">Rp xx.xxx</td>
+                    </tr>
+                    <tr>
+                      <td class="ordersum" style="padding: 0px;">Order Total</td>
+                      <td><img src="assets/img/ordertotal.svg" alt="" style="width: 40px;" /></td>
+                      <td style="width: 10px;">:</td>
+                      <td style="text-align: left;">Rp xx.xxx</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+  
+    </div>
+  </div>
+
+  </body>
+</html>
+

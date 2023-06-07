@@ -1,0 +1,9 @@
+
+
+.container{
+    background-color: aquamarine;
+    background-image: url(./img/images.jpg);
+    background-size: 200px;
+    background: repeat;
+    background-blend-mode: ;
+}
